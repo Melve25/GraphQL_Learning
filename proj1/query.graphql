@@ -1,0 +1,13 @@
+query GetOneBook {
+	bookById(id: "1"){
+		title
+		author
+	}
+}
+
+query GetAllBooks {
+	allBooks{
+		id
+		title
+	}
+}
